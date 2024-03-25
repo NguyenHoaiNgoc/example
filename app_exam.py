@@ -1,7 +1,7 @@
 from sklearn.datasets import load_iris
 import streamlit
 import pickle
-import numpy
+import numpy as np
 
 iris_data = load_iris()
 model = pickle.load(open('iris_lrg_model.pkl', 'rb'))
